@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mush.ud\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express expo-server-sdk-node cors body-parser
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\Mush.ud\Anaconda3;C:\Users\Mush.ud\Anaconda3\Library\mingw-w64\bin;C:\Users\Mush.ud\Anaconda3\Library\usr\bin;C:\Users\Mush.ud\Anaconda3\Library\bin;C:\Users\Mush.ud\Anaconda3\Scripts;C:\Users\Mush.ud\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Mush.ud\AppData\Local\Programs\Python\Python37\;C:\Users\Mush.ud\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.3\bin;C:\Users\Mush.ud\AppData\Local\atom\bin;C:\Users\Mush.ud\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\heroku\bin;C:\mysql-8.0.13-winx64\bin;C:\Users\Mush.ud\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mush.ud\.ebcli-virtual-env\executables
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expo-server-sdk-node: Not found
+      at Request.params.callback [as _callback] (C:\Users\Mush.ud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66091:18)
+      at Request.self.callback (C:\Users\Mush.ud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Users\Mush.ud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Users\Mush.ud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "expo-notifications-wrapper",
+    "version": "1.0.0",
+    "description": "A wrapper to send notifications",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mushud",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
